@@ -16,6 +16,7 @@ function library:CreateWindow(name)
 	window.Size = UDim2.new(0, 501, 0, 633)
 	
 	title.Name = "title"
+	title.Draggable = true
 	title.Parent = window
 	title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	title.Size = UDim2.new(0, 501, 0, 26)
